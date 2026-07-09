@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: test step
         run:
-          echo "This is test step"
+          echo "This is my docker password" ${{secrets.DOCKER_PASSWORD}}
   deploy:
     runs-on: ubuntu-latest
     needs: test
