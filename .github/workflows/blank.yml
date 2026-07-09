@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: deploy step
         run:
-          echo "This is deploy step"
+          echo "This is deployment step"
           
       
       
